@@ -14,7 +14,7 @@ let availableQuesions = [];
 let questions = [];
 
 fetch(
-    'https://the-trivia-api.com/api/questions?categories=science&limit=3&difficulty=easy&tags=computing'
+    'https://the-trivia-api.com/api/questions?categories=science&limit=3&difficulty=medium&tags=computing'
 )
     .then((res) => {
         return res.json();
